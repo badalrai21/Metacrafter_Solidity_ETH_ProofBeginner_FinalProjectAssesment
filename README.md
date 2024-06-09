@@ -10,9 +10,9 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., ETHProofBeginnerFinalProject.sol). Copy and paste the following code into the file:
 
-----
+---
          // SPDX-License-Identifier: MIT
-        pragma solidity ^0.8.18;
+            pragma solidity ^0.8.18;
         
         /*
                REQUIREMENTS
@@ -61,4 +61,4 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
                 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
                 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2
                 */       
-----
+---
