@@ -72,7 +72,7 @@ Additionally, few addresses are given in the last of code for testing which has 
 
 ## Help
 
-You can easily run on Remix website at https://remix.ethereum.org/ which decreases the chances of errors.
+You can easily run on Remix website at https://remix.ethereum.org/ which decreases the chances of errors. Additionally, always try to choose the account with maximum ethers which will help to avoid run out of gas.  
 
 ## Authors
 
