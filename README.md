@@ -62,3 +62,23 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
             0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2
             */
 ```
+
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "^0.8.18" (or another compatible version), and then click on the "Compile ETHProofBeginnerFinalProject.sol" button.
+
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
+
+Once the contract is deployed, you can interact with it. Click on the "MyToken" contract in the left-hand sidebar, and then check the TokenAbbrev, TokenName, TotalSupply by clicking them. By passing address and token value in MintTokens and clicking it will call the MintTokens function and same will be with BurnTokens.
+Additionally, few addresses are given in the last of code for testing which has to be pasted at the place of _address in the BurnTokens and MintTokens Button.
+
+## Help
+
+You can easily run on Remix website at https://remix.ethereum.org/ which decreases the chances of errors.
+
+## Authors
+
+Badal Kumar Rai                                                                                                                        
+[@BadalRai](https://www.linkedin.com/in/badal-kumar-rai-a0151b259/)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
