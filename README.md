@@ -11,10 +11,10 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., ETHProofBeginnerFinalProject.sol). Copy and paste the following code into the file:
 
 ----
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.18;
+    // SPDX-License-Identifier: MIT
+    pragma solidity ^0.8.18;
 
-/*
+       /*
        REQUIREMENTS
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
     2. Your contract will have a mapping of addresses to balances (address => uint)
@@ -26,9 +26,9 @@ pragma solidity ^0.8.18;
        and from the balance of the “sender”.
     5. Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal 
        to the amount that is supposed to be burned.
-*/
+       */
 
-contract MyToken {
+    contract MyToken {
 
     // public variables here
     string public TokenName = "BitCoin";
@@ -55,7 +55,7 @@ contract MyToken {
 
         }
     }
-}
+    }
         /* 
         Few Addresses for Testing Purposes
         0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
